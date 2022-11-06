@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário - Bonança</title>
+    <link rel="stylesheet" href="styleFO.css" />
+  </head>
+  <body>
+    <!--cabeçalho-->
+    <header>
+      <nav>
+        <h1 id="formulario_">Formulário</h1>
+        <ul>
+          <li id="inicio"><a href="Página Inicial.html">Início</a></li>
+          <li id="destaques"><a href="Destaques.html">Destaques</a></li>
+          <li id="curiosidades">
+            <a href="Curiosidades.html">Curiosidades</a>
+          </li>
+          <li id="formulario"><a href="Formulário.html">Formulário</a></li>
+        </ul>
+        <img
+          id="img-bairro"
+          src="imagens/Destaques/bairro imagem 1.png"
+          alt="bairro"
+        />
+      </nav>
+    </header>
+    <main>
+      <!-- Entre em contato -->
+
+      <section id="entre-em-cnt">
+        <article class="subtitulos">Entre em contato conosco!</article>
+        <div class="linhas"></div>
+        <article class="texto">
+          <p>
+            Caso tenha alguma dúvida que não foi escrita por aqui e acredita que
+            vai ajudar a deixar o site mais completo, escreva por aqui!
+          </p>
+        </article>
+      </section>
+
+      <!-- Formulário -->
+
+      <section>
+        <article>
+          <form>
+            <fieldset>
+              <div id="nome">
+                <label class="pergunta">Nome:</label>
+                <input type="text" name="nome" />
+              </div>
+              <div id="sobrenome">
+                <label class="pergunta">Sobrenome:</label>
+                <input type="text" name="sobrenome" />
+              </div>
+            </fieldset>
+
+            <div id="email">
+              <label class="pergunta">Email:</label>
+              <input type="email" name="email" />
+            </div>
+            <div id="genero">
+              <label id="pergunta-genero">Gênero:</label>
+              <label>
+                <input type="radio" name="opcao" value="masculino" />Masculino
+              </label>
+              <label>
+                <input type="radio" name="opcao" value="feminino" />Feminino
+              </label>
+              <label>
+                <input type="radio" name="opcao" value="outro" />Outro
+              </label>
+              <label>
+                <input type="radio" name="opcao" value="nao" />Prefiro não dizer
+              </label>
+            </div>
+            <div id="telefone">
+              <label class="pergunta">Telefone:</label>
+              <input type="tel" name="telefone" id="telefone" />
+            </div>
+            <div id="motivo">
+              <label class="pergunta">Motivo:</label>
+              <select id="motivo">
+                <option selected disabled value="">Selecione</option>
+                <option>Adição de um novo conteúdo</option>
+                <option>Reclamação</option>
+                <option>Dúvida</option>
+                <option>Pedido de retirada de um conteúdo</option>
+              </select>
+            </div>
+            <div id="mensagem">
+              <br />
+              <label class="pergunta">Mensagem:</label>
+              <textarea rows="5" id="cx-mensagem"></textarea>
+            </div>
+
+            <button type="submit">Concluído</button>
+          </form>
+        </article>
+      </section>
+    </main>
+
+    <!-- Rodapé -->
+
+    <footer>
+      <section id="fontes">
+        <h3>Fontes</h3>
+        <p>
+          Praticamente todas as fontes do site foram retiradas de pesquisas com
+          moradores novos e antigos do bairro, já que o bairro em si é muito
+          jovem e pequeno.
+        </p>
+        <article id="redes">
+          <a href="https://www.facebook.com/"
+            ><img
+              id="iconeface"
+              src="imagens/Destaques/facebook.png"
+              alt="facebook"
+          /></a>
+          <a href="https://www.instagram.com/"
+            ><img
+              id="iconeinsta"
+              src="imagens/Destaques/instagram.png"
+              alt="instagram"
+          /></a>
+          <a href="https://twitter.com/"
+            ><img
+              id="iconett"
+              src="imagens/Destaques/twitter.png"
+              alt="twitter"
+          /></a>
+        </article>
+      </section>
+      <section id="contatos">
+        <h3>Contatos</h3>
+        <p>
+          Email: bonança.bairro@gmail.com <br />
+          <br />
+          Dúvidas 24hrs por dia durante a semana
+          <br />
+          <br />
+          Número de contato: 11 95765-4300
+        </p>
+      </section>
+      <section id="temas">
+        <h3>Temas da página:</h3>
+        <ol start="1">
+          <li><a href="#nome">Nome</a></li>
+          <br />
+          <li><a href="#sobrenome">Sobrenome</a></li>
+          <br />
+          <li><a href="#email">Email</a></li>
+          <br />
+          <li><a href="#genero">Gênero</a></li>
+          <br />
+        </ol>
+      </section>
+    </footer>
+  </body>
+</html>

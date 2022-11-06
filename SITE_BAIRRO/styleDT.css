@@ -1,0 +1,443 @@
+@font-face {
+  font-family: Girassol;
+  src: url(fontes/Girassol-Regular.ttf);
+}
+@font-face {
+  font-family: GFS;
+  src: url(fontes/GFSNeohellenic-Regular.ttf);
+}
+body {
+  margin: 0vw;
+  overflow-x: hidden;
+}
+
+header {
+  background: #2fb001;
+  height: 8.3vw;
+  width: 1vp;
+  position: sticky;
+  top: 0.00000000001px;
+  z-index: 10;
+}
+
+#img-bairro {
+  position: absolute;
+  top: 1vw;
+  left: 4vw;
+  width: 6.3vw;
+  height: 6.3vw;
+}
+
+#destaque {
+  position: absolute;
+  top: -5vw;
+  left: 20vw;
+  font-family: Girassol;
+  font-size: 6vw;
+}
+
+#inicio {
+  position: absolute;
+  top: 5.5vw;
+  left: 20.5vw;
+  background-color: rgb(180, 180, 180);
+  height: 2vw;
+  width: 10vw;
+  text-align: center;
+  font-size: 1.5vw;
+  border-radius: 0.3vw;
+}
+
+#destaques {
+  position: absolute;
+  top: 5.5vw;
+  left: 31.5vw;
+  background-color: rgb(180, 180, 180);
+  height: 2vw;
+  width: 10vw;
+  text-align: center;
+  font-size: 1.5vw;
+  border-radius: 0.3vw;
+}
+
+#curiosidades {
+  position: absolute;
+  top: 5.5vw;
+  left: 42.5vw;
+  background-color: rgb(180, 180, 180);
+  height: 2vw;
+  width: 10vw;
+  text-align: center;
+  font-size: 1.5vw;
+  border-radius: 0.3vw;
+}
+
+#formulario {
+  position: absolute;
+  top: 5.5vw;
+  left: 53.5vw;
+  background-color: rgb(180, 180, 180);
+  height: 2vw;
+  width: 10vw;
+  text-align: center;
+  font-size: 1.5vw;
+  border-radius: 0.3vw;
+}
+
+#inicio:hover {
+  background-color: rgb(112, 111, 111);
+  transition: 0.15s;
+}
+
+#destaques:hover {
+  background-color: rgb(112, 111, 111);
+  transition: 0.15s;
+}
+
+#curiosidades:hover {
+  background-color: rgb(112, 111, 111);
+  transition: 0.15s;
+}
+
+#formulario:hover {
+  background-color: rgb(112, 111, 111);
+  transition: 0.15s;
+}
+
+header nav a:hover {
+  color: white;
+}
+
+ul {
+  position: relative;
+  top: 25px;
+}
+
+ul li {
+  list-style: none;
+}
+
+/* MENU ACIMA */
+
+body ::selection {
+  background-color: #98ee79;
+}
+
+main a:visited {
+  color: black;
+}
+
+header a:visited {
+  color: black;
+}
+
+main {
+  margin-top: -11vw;
+}
+
+.subtitulos {
+  font-family: Girassol;
+  font-size: 5.5vw;
+  position: relative;
+  top: 4vw;
+  margin-left: 1.9vw;
+}
+
+.linhas {
+  height: 1px;
+  border: 1px solid black;
+  background-color: black;
+  width: 53vw;
+  position: relative;
+  bottom: 3.5vw;
+}
+
+.texto {
+  font-family: GFS;
+  font-size: 1.9vw;
+  width: 52vw;
+  margin-left: 1.8vw;
+  display: inline-block;
+  clear: float;
+}
+
+sup {
+  font-size: 0.9vw;
+}
+/* PANORÂMICA */
+
+#subtitulo-panoramica {
+  font-family: Girassol;
+  font-size: 5.2vw;
+  position: relative;
+  top: 7vw;
+  margin-left: 3vw;
+}
+
+#subtitulo-avenida {
+  font-family: Girassol;
+  font-size: 5.2vw;
+  position: relative;
+  top: 11vw;
+  margin-left: 6vw;
+}
+
+#icone-avenida {
+  width: 7vw;
+  height: 7vw;
+  position: relative;
+  left: 380px;
+  bottom: 10px;
+}
+
+#linha-avenida {
+  height: 1px;
+  border: 1px solid black;
+  background-color: black;
+  width: 53vw;
+  position: relative;
+  top: -1.2vw;
+}
+
+#imagem3 {
+  width: 35vw;
+  height: 25vw;
+  display: inline-block;
+  border: 0.292873vw solid black;
+}
+
+#article-imagem-avenida {
+  width: 30vw;
+  height: 20vw;
+  display: inline;
+  position: relative;
+  left: 4.5vw;
+  bottom: 4.5vw;
+}
+
+main a:link {
+  color: black;
+  text-decoration: none;
+}
+
+header a:link {
+  color: black;
+  text-decoration: none;
+}
+
+/* PERIGOS */
+
+#icone-perigos {
+  width: 6vw;
+  height: 6vw;
+  position: relative;
+  left: 25vw;
+  bottom: 3.56vw;
+}
+
+#article-imagem-perigos {
+  width: 90vw;
+  height: 70vw;
+  display: inline;
+  position: relative;
+  left: 4.5vw;
+  bottom: 1.8vw;
+}
+
+#imagem4 {
+  width: 30vw;
+  height: 15vw;
+  display: inline-block;
+  border: 0.292873vw solid black;
+  position: absolute;
+  bottom: 17vw;
+}
+
+#imagem5 {
+  width: 31vw;
+  height: 17vw;
+  display: inline-block;
+  border: 0.292873vw solid black;
+  position: absolute;
+  bottom: -40px;
+}
+
+/* ÔNIBUS */
+
+#icone-onibus {
+  width: 6vw;
+  height: 6vw;
+  position: relative;
+  left: 41vw;
+  bottom: 3.5vw;
+}
+
+#article-imagem-onibus {
+  width: 80vw;
+  height: 70vw;
+  display: inline;
+  position: relative;
+  left: 7vw;
+  bottom: 4vw;
+}
+
+#imagem6 {
+  width: 20.2vw;
+  height: 20.5vw;
+  display: inline-block;
+  border: 0.292873vw solid black;
+  position: absolute;
+  bottom: 18.3vw;
+  left: -5vw;
+}
+
+#imagem7 {
+  width: 20.2vw;
+  height: 20.5vw;
+  display: inline-block;
+  border: 0.292873vw solid black;
+  position: absolute;
+  bottom: 18.3vw;
+  left: 17vw;
+}
+
+#imagem8 {
+  width: 20.5vw;
+  height: 20.5vw;
+  display: inline-block;
+  border: 0.292873vw solid black;
+  position: absolute;
+  bottom: -4.5vw;
+  left: 6vw;
+}
+
+/* PARQUE ECOLÓGICO */
+
+#parque {
+  margin-bottom: 8.5vw;
+}
+
+#icone-parque {
+  width: 6vw;
+  height: 6vw;
+  position: relative;
+  left: 42vw;
+  bottom: 3.5vw;
+}
+
+#article-imagem-parque {
+  width: 90vw;
+  height: 17vw;
+  display: inline;
+  position: relative;
+  left: 8.8vw;
+  bottom: 4.4vw;
+}
+
+#imagem9 {
+  width: 30vw;
+  height: 15.5vw;
+  display: inline-block;
+  border: 0.292873vw solid black;
+  position: absolute;
+  bottom: 17vw;
+}
+
+#imagem10 {
+  width: 31vw;
+  height: 16.5vw;
+  display: inline-block;
+  border: 0.292873vw solid black;
+  position: absolute;
+  bottom: -4vw;
+}
+
+/* RODAPÉ */
+
+footer {
+  width: 1vp;
+  height: 260px;
+  background: #2fb001;
+}
+
+#fontes {
+  width: 300px;
+  position: relative;
+  left: 30px;
+  bottom: 60px;
+  font-family: GFS;
+  color: white;
+  font-size: 18.5px;
+  display: inline-block;
+}
+
+#fontes h3 {
+  font-size: 22px;
+}
+
+#redes {
+  position: absolute;
+  top: 190px;
+}
+
+#iconeface {
+  width: 55px;
+  height: 55px;
+}
+
+#iconeinsta {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 10px;
+}
+
+#iconett {
+  width: 55px;
+  height: 55px;
+  position: relative;
+  left: 22px;
+}
+
+#contatos {
+  width: 300px;
+  position: relative;
+  left: 250px;
+  bottom: 60px;
+  font-family: GFS;
+  color: white;
+  font-size: 18.5px;
+  display: inline-block;
+  text-align: center;
+}
+
+#contatos h3 {
+  font-size: 22px;
+}
+
+#temas {
+  width: 185px;
+  position: relative;
+  left: 500px;
+  font-family: GFS;
+  color: white;
+  font-size: 18.5px;
+  display: inline-block;
+}
+
+#temas ol {
+  text-align: left;
+}
+
+#temas h3 {
+  font-size: 22px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:visited {
+  color: white;
+}
